@@ -1,0 +1,114 @@
+/* Tablet Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+  .social_menu {
+    /* width: 60%;
+    max-width: 100%; */
+}
+
+.mini_menu {
+  /* max-width: 100%; */
+  width: 90%;
+}
+
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+  .social_menu {
+    /* width: 82%; */
+    /* float: right; */
+  }
+  .social_menu ul {
+    /* float: right; */
+    /* margin: 0 auto; */
+  }
+  .mini_menu ul {
+
+    /* float: right; */
+    /* margin: 0 auto; */
+  }
+  
+
+
+
+
+
+
+
+}
+
+/* Mobile Layout */
+
+@media only screen and (min-width:200px) and (max-width:540px){
+
+  .logo_area {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+.logo_area img {
+  width: 70%;
+  float: none;
+}
+.mini_area {
+    width: 100%;
+    float: none;
+}
+.social_menu {
+  width: 100%;
+}
+.social_menu ul {
+  border-radius: 15px;
+}
+.mini_menu {
+  /* max-width: 100%; */
+  width: 100%;
+  margin: 16px 5px;
+}
+.mini_menu ul li a {
+  font-size: 12px;
+}
+.inner_work, .inner_project, .inner_footer {
+  display: block;
+  padding: 0;
+}
+.child_work, .child_project, .child_footer {
+  width: 100%;
+  margin-right: 0;
+  margin-top: 30px;
+}
+#footer_area {
+  margin-top: 20px;
+}
+.hero_area, #project_area, #footer_area {
+  padding-top: 0px;
+}
+.left_copyright, .right_copyright {
+  float: none;
+  width: 100%;
+  font-size: 14px;
+}
+.search_area {
+  float: none;
+  margin: 0 auto;
+}
+.search_area form {
+  margin: 0 auto;
+}
+.social_menu {
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+}
+.social_menu ul {
+  float: none;
+  margin: 0 auto;
+}
+.mini_menu ul {
+
+  float: none;
+  margin: 0 auto;
+}
+
+
+
+}
+
